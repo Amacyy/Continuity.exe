@@ -29,6 +29,7 @@ public class Car : MonoBehaviour
             transform.Translate(Vector3.left * speed * Time.deltaTime);
         if (Input.GetKey(KeyCode.DownArrow))
             transform.Translate(Vector3.right * speed * Time.deltaTime);
+        
     }
 
     float speed = 10.0f;
