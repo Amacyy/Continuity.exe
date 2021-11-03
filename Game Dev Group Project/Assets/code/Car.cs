@@ -36,4 +36,10 @@ public class Car : MonoBehaviour
     private float maxY;
     private float minX;
     private float maxX;
+
+    private void OnCollisionEnter2D(Collision2D col)
+    {
+        if (col.gameObject.tag == "EnemyCar")
+            Destroy(gameObject);
+    }
 }
