@@ -385,7 +385,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Enemy: {fileID: 8216660671823678572, guid: 700b9873f47338a459764ff55a0ebcee, type: 3}
   maxPos: 4.5
-  delayTimer: 3
+  delayTimer: 10
 --- !u!1 &821804555
 GameObject:
   m_ObjectHideFlags: 0
@@ -597,7 +597,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Enemy: {fileID: 8216660671823678572, guid: 9f88e9bef403dc64b9ce6fc3ccf1e85d, type: 3}
   maxPos: 4.5
-  delayTimer: 3
+  delayTimer: 6
 --- !u!1 &1339344315
 GameObject:
   m_ObjectHideFlags: 0
