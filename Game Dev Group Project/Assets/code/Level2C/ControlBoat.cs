@@ -23,10 +23,6 @@ public class ControlBoat : MonoBehaviour
             animator.SetBool("jump", true);
         else
             animator.SetBool("jump", false);
-        if (Input.GetKey(KeyCode.DownArrow))
-            animator.SetBool("slide", true);
-        else
-            animator.SetBool("slide", false);
     }
 }
 
