@@ -24,5 +24,12 @@ public class ControlBoat : MonoBehaviour
         else
             animator.SetBool("jump", false);
     }
+
+    private void OnCollisionEnter2D(Collision2D col)
+    {
+        if (col.gameObject.tag == "EnemyCar")
+            Destroy(gameObject);
+    }
+
 }
 

@@ -1,36 +1,32 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
 
-    public bool isStart;
-    public bool isQuit;
-
-    void Start()
+    void start()
     {
-        
+
+
     }
 
-    // Update is called once per frame
-    void Update()
+    void update()
     {
-        
+
     }
 
-    [System.Obsolete]
-    void OnMouseUp()
+    public void Play()
     {
-        if (isStart)
+        Application.LoadLevel("Level 1");
+    }
+
+    public void Pause()
+    {
+        if (Time.timeScale == 1)
         {
-            Application.LoadLevel(1);
-        }
-        if (isQuit)
-        {
-            Application.Quit();
+            Time.timeScale = 1;
         }
     }
-
-
 }
