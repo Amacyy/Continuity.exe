@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class countdown : MonoBehaviour
 {
     public string levelloaded;
-    private float timer = 10f;
+    private float timer = 20f;
     // Start is called before the first frame update
     void Start()
     {
