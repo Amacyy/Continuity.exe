@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerC : MonoBehaviour
 {
@@ -41,6 +42,8 @@ public class PlayerC : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D col)
     {
         if (col.gameObject.tag == "EnemyCar")
-            Destroy(gameObject);
+        {
+            SceneManager.LoadScene("level 1");
+        }
     }
 }

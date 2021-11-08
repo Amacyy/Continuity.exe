@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Car : MonoBehaviour
 {
@@ -37,10 +38,13 @@ public class Car : MonoBehaviour
     private float maxY;
     private float minX;
     private float maxX;
+    private string levelloaded;
 
     private void OnCollisionEnter2D(Collision2D col)
     {
         if (col.gameObject.tag == "EnemyCar")
-            Destroy(gameObject);
+        {
+            SceneManager.LoadScene("level 1");
+        }
     }
 }

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ControlBoat : MonoBehaviour
 {
@@ -28,7 +29,9 @@ public class ControlBoat : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D col)
     {
         if (col.gameObject.tag == "EnemyCar")
-            Destroy(gameObject);
+        {
+            SceneManager.LoadScene("level 1");
+        }
     }
 
 }
