@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -9,8 +10,8 @@ public class ScoreManager : MonoBehaviour
     public Text scoreText;
     public Text highScoreText;
 
-    public float scoreCount;
-    public float highScoreCount;
+    public static float scoreCount;
+    public static float highScoreCount;
 
     public float pointsPerSecond;
 
@@ -42,4 +43,7 @@ public class ScoreManager : MonoBehaviour
         scoreText.text = "Score: " + Mathf.Round(scoreCount);
         highScoreText.text = "HighScore: " + Mathf.Round(highScoreCount);
     }
+
+   
+
 }

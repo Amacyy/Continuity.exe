@@ -30,7 +30,7 @@ public class ControlBoat : MonoBehaviour
     {
         if (col.gameObject.tag == "EnemyCar")
         {
-            SceneManager.LoadScene("level 1");
+            SceneManager.LoadScene("Game Over");
         }
     }
 

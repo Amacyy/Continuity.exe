@@ -172,7 +172,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb8aa4e47f214ae49b725028474eef91, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 7
+  speed: 9
 --- !u!212 &22208928
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -233,7 +233,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 22208925}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.256, y: 1.21, z: 0}
+  m_LocalPosition: {x: 20, y: 1.143, z: 0}
   m_LocalScale: {x: 3.1952, y: 4.7799, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -334,7 +334,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 154374723}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 94.2, y: -1.6, z: 0}
+  m_LocalPosition: {x: 100, y: -1.65, z: 0}
   m_LocalScale: {x: 1.4647743, y: 1.3333603, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -406,7 +406,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Shark: {fileID: 154374723}
   maxPos: 13.5313
-  delayTimer: 10
+  delayTimer: 7
 --- !u!114 &154374727
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -419,7 +419,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2eeea1fa4d176a343b2c0161ad6f3b17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 4
+  speed: 5
 --- !u!50 &154374728
 Rigidbody2D:
   serializedVersion: 4
@@ -454,7 +454,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.03564006, y: -0.14386654}
+  m_Offset: {x: 0.03564006, y: -0.43867564}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -465,7 +465,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.067742, y: 1.3122668}
+  m_Size: {x: 1.067742, y: 0.7226486}
   m_EdgeRadius: 0
 --- !u!1 &250896634
 GameObject:
@@ -688,7 +688,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 424086494}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.36, y: -1.63, z: 0}
+  m_LocalPosition: {x: 30, y: -1.3, z: 0}
   m_LocalScale: {x: 1.1598, y: 1.2131, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -708,7 +708,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Boyd: {fileID: 424086494}
   maxPos: 13.5313
-  delayTimer: 4
+  delayTimer: 10
 --- !u!114 &424086498
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1584,7 +1584,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1637472777}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -12, y: -0.53, z: 0}
+  m_LocalPosition: {x: -200, y: -0.53, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1807,7 +1807,7 @@ Rigidbody2D:
   m_Mass: 0.0001
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 2
+  m_GravityScale: 1
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -1939,7 +1939,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2111050530}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 59.9707, y: -1.67, z: 0}
+  m_LocalPosition: {x: 68.9, y: -1.47, z: 0}
   m_LocalScale: {x: 1.5161744, y: 1.7039, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1957,7 +1957,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 636e26eba1071534eb68ab9c0824f01c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 7
 --- !u!114 &2111050534
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1972,7 +1972,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Police: {fileID: 2111050530}
   maxPos: 13.5313
-  delayTimer: 10
+  delayTimer: 8
 --- !u!50 &2111050535
 Rigidbody2D:
   serializedVersion: 4
@@ -2007,7 +2007,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.115873694, y: 0.16325474}
+  m_Offset: {x: -0.097417414, y: 0.01685059}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -2018,7 +2018,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.968253, y: 1.2734907}
+  m_Size: {x: 1.8692373, y: 0.9806824}
   m_EdgeRadius: 0
 --- !u!1 &2134718467
 GameObject:

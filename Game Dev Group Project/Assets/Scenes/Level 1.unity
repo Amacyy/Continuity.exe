@@ -495,7 +495,7 @@ GameObject:
   - component: {fileID: 821804557}
   m_Layer: 5
   m_Name: ScoreManager
-  m_TagString: Untagged
+  m_TagString: score
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -533,8 +533,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreText: {fileID: 1646185836}
   highScoreText: {fileID: 1339344316}
-  scoreCount: 0
-  highScoreCount: 0
   pointsPerSecond: 5
   scoreIncreasing: 1
 --- !u!1 &912230082
@@ -1005,7 +1003,7 @@ GameObject:
   - component: {fileID: 1339344316}
   m_Layer: 5
   m_Name: HighScoreText
-  m_TagString: Untagged
+  m_TagString: score
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1343,7 +1341,7 @@ GameObject:
   - component: {fileID: 1646185836}
   m_Layer: 5
   m_Name: ScoreText
-  m_TagString: Untagged
+  m_TagString: score
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1588,7 +1586,7 @@ GameObject:
   - component: {fileID: 1988347143}
   m_Layer: 5
   m_Name: Canvas
-  m_TagString: Untagged
+  m_TagString: score
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
